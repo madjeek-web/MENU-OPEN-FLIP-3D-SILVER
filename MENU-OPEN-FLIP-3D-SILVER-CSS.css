@@ -1,0 +1,83 @@
+/*** MENU OPEN FLIP 3D SILVER - Creator : MADJEEK WIZARD - 2022 - MIT License Project
+
+
+//BG img : Madjeek Photography © All right reserved -
+//https://www.flickr.com/photos/madjeek/51598783401/in/album-72157719188302029/
+// https://www.flickr.com/people/madjeek/
+
+
+// import : https://friconix.com/start/
+// https://friconix.com/cdn/friconix.js
+
+
+// MIT License Copyright (c) 2022 Madjeek Wizard Permission is hereby granted, free of charge, to any person obtaining 
+a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, 
+including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies 
+of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The 
+above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE 
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR 
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, 
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  ***/
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+
+/*** Workaround for removing comments in the body - https://github.com/madjeek-web/no-comment-please -
+_______
+NO COMMENT PLEASE : MIT License Project - Creator : Madjeek Wizard - 2022 ***/
+.prompt { display: none; } samp > kbd { display: none; } pre { display: none; } .pre-element-display-none { display: none; } code { display: none; }
+
+
+/*** THEME PAGE CUSTOM ***/
+html, body {  height: 100%; width: 100%; margin: 0px; padding: 0px; border: 0;
+font-size: 100%; -webkit-text-size-adjust:100%; text-size-adjust:100%; vertical-align: baseline;
+background-color: black; background-image:url(https://live.staticflickr.com/65535/51598783401_265368665a_z.jpg);
+background-position:center center; background-repeat:no-repeat; background-attachment:fixed; background-size:cover;
+-webkit-font-smoothing: antialiased; /*chrome + safari*/ 
+-moz-osx-font-smoothing: grayscale;/*firefox*/  }
+
+
+
+/*** MENU OPEN FLIP 3D SILVER ***/
+.fixe{position:fixed;top:20px;right:2%;z-index:10}
+
+.menu,.menu ul{list-style:none;padding:0;margin:0;}
+.menu{height:40px}
+
+.menu li{background:-webkit-linear-gradient(top, rgb(38, 38, 38), #e6e6e6 25%, #ffffff 38%, rgb(103, 103, 103) 85%, #b9b9b9 98%, rgb(100, 100, 100));
+min-width:160px;box-shadow: inset 0px 1px 0px #ffffff, 0px 1px 3px rgb(0 0 0 / 30%);outline: none;border: 0px solid rgba(255, 255, 255, 0);}
+.menu>li{display:block;float:left;position:relative;}
+.menu>li:first-child{border-radius:20px 0 0 20px}
+.menu>li:last-child{border-radius:0 20px 20px 0}
+.menu a{border-left:3px solid rgba(0,0,0,0);color:rgb(69, 69, 69);display:block;font-family:'Rajdhani', sans-serif;font-size:18px;font-weight: 600;line-height:40px;text-align:center;text-decoration:none;text-transform:uppercase}
+.menu li:hover{background:-webkit-linear-gradient(top, rgb(0, 91, 105), #97f5ff 25%, #ffffff 38%, rgb(177, 247, 255) 85%, #00727e 98%, rgb(100, 100, 100));border-bottom:2px solid #222;border-top:2px solid #1b1b1b}
+.menu li:hover>a{border-radius:5px 0 0;border-left:3px}
+
+.submenu{left:0;max-height:0;position:absolute;top:100%;z-index:0;-webkit-perspective:400px;-moz-perspective:400px;-ms-perspective:400px;-o-perspective:400px;perspective:400px}
+.submenu li{opacity:0;-webkit-transform:rotateY(90deg);-moz-transform:rotateY(90deg);-ms-transform:rotateY(90deg);-o-transform:rotateY(90deg);transform:rotateY(90deg);-webkit-transition:opacity .4s,-webkit-transform .5s;-moz-transition:opacity .4s,-moz-transform .5s;-ms-transition:opacity .4s,-ms-transform .5s;-o-transition:opacity .4s,-o-transform .5s;transition:opacity .4s,transform .5s}
+
+.menu .submenu li:hover a{border-radius:0;color:rgb(0, 0, 0)}
+.menu>li:hover .submenu,.menu>li:focus .submenu{max-height:2000px;z-index:10}
+.menu>li:hover .submenu li,.menu>li:focus .submenu li{opacity:1;-webkit-transform:none;-moz-transform:none;-ms-transform:none;-o-transform:none;transform:none}
+.menu li:hover .submenu li:nth-child(1){-webkit-transition-delay:0s;-moz-transition-delay:0s;-ms-transition-delay:0s;-o-transition-delay:0s;transition-delay:0s}
+.menu li:hover .submenu li:nth-child(2){-webkit-transition-delay:50ms;-moz-transition-delay:50ms;-ms-transition-delay:50ms;-o-transition-delay:50ms;transition-delay:50ms}
+.menu li:hover .submenu li:nth-child(3){-webkit-transition-delay:.1s;-moz-transition-delay:.1s;-ms-transition-delay:.1s;-o-transition-delay:.1s;transition-delay:.1s}
+.menu li:hover .submenu li:nth-child(4){-webkit-transition-delay:.15s;-moz-transition-delay:.15s;-ms-transition-delay:.15s;-o-transition-delay:.15s;transition-delay:.15s}
+.menu li:hover .submenu li:nth-child(5){-webkit-transition-delay:.2s;-moz-transition-delay:.2s;-ms-transition-delay:.2s;-o-transition-delay:.2s;transition-delay:.2s}
+.menu li:hover .submenu li:nth-child(6){-webkit-transition-delay:.25s;-moz-transition-delay:.25s;-ms-transition-delay:.25s;-o-transition-delay:.25s;transition-delay:.25s}
+.menu li:hover .submenu li:nth-child(7){-webkit-transition-delay:.3s;-moz-transition-delay:.3s;-ms-transition-delay:.3s;-o-transition-delay:.3s;transition-delay:.3s}
+.menu li:hover .submenu li:nth-child(8){-webkit-transition-delay:.35s;-moz-transition-delay:.35s;-ms-transition-delay:.35s;-o-transition-delay:.35s;transition-delay:.35s}
+
+.submenu li:nth-child(1){-webkit-transition-delay:.35s;-moz-transition-delay:.35s;-ms-transition-delay:.35s;-o-transition-delay:.35s;transition-delay:.35s}
+.submenu li:nth-child(2){-webkit-transition-delay:.3s;-moz-transition-delay:.3s;-ms-transition-delay:.3s;-o-transition-delay:.3s;transition-delay:.3s}
+.submenu li:nth-child(3){-webkit-transition-delay:.25s;-moz-transition-delay:.25s;-ms-transition-delay:.25s;-o-transition-delay:.25s;transition-delay:.25s}
+.submenu li:nth-child(4){-webkit-transition-delay:.2s;-moz-transition-delay:.2s;-ms-transition-delay:.2s;-o-transition-delay:.2s;transition-delay:.2s}
+.submenu li:nth-child(5){-webkit-transition-delay:.15s;-moz-transition-delay:.15s;-ms-transition-delay:.15s;-o-transition-delay:.15s;transition-delay:.15s}
+.submenu li:nth-child(6){-webkit-transition-delay:.1s;-moz-transition-delay:.1s;-ms-transition-delay:.1s;-o-transition-delay:.1s;transition-delay:.1s}
+.submenu li:nth-child(7){-webkit-transition-delay:50ms;-moz-transition-delay:50ms;-ms-transition-delay:50ms;-o-transition-delay:50ms;transition-delay:50ms}
+.submenu li:nth-child(8){-webkit-transition-delay:0s;-moz-transition-delay:0s;-ms-transition-delay:0s;-o-transition-delay:0s;transition-delay:0s}
