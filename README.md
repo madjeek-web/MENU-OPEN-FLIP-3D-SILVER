@@ -15,5 +15,15 @@ ____
 
 OTHER STYLE :
 
-// MENU OPEN FLIP 3D BRASS / Cu - Creator : MADJEEK WIZARD - 2022 - MIT License Project // SEE : https://codepen.io/madjeek-web/pen/ZErLmzE // see : https://github.com/madjeek-web/MENU-OPEN-FLIP-3D-Brass-Cu
+// MENU OPEN FLIP 3D BRASS / Cu - Creator : MADJEEK WIZARD - 2022 - MIT License Project 
+// SEE : https://codepen.io/madjeek-web/pen/ZErLmzE 
+// see : https://github.com/madjeek-web/MENU-OPEN-FLIP-3D-Brass-Cu
+
+____
+
+OTHER STYLE :
+
+// MENU OPEN FLIP 3D GOLD - Creator : MADJEEK WIZARD - 2022 - MIT License Project 
+// SEE : https://codepen.io/madjeek-web/pen/abqpXqz 
+// see : https://github.com/madjeek-web/MENU-OPEN-FLIP-3D-GOLD
 
