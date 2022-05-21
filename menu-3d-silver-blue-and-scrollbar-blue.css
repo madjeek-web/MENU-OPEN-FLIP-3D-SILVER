@@ -1,7 +1,7 @@
 /*** SCROLLBAR BLUE - Minify CSS ***/
 body::-webkit-scrollbar{width:7px}body::-webkit-scrollbar-track{box-shadow:inset 0 0 6px rgba(255,255,255,.041)}body::-webkit-scrollbar-track-piece{background:#ffffff09;border-radius:4px;border:1px solid transparent}body::-webkit-scrollbar-thumb{background:#1869bb0a;box-shadow:inset 0 0 6px rgba(4, 37, 122, 0.466);border-radius:4px;border:1px solid rgba(255,255,255,.1)}body::-webkit-scrollbar-thumb>window-inactive{background:#ffffff00}
 
-/*** MENU 3D SILVER ***/
+/*** MENU 3D SILVER BLUE ***/
 .fixe{position:fixed;top:20px;right:2%;z-index:10}
 
 .menu,.menu ul{list-style:none;padding:0;margin:0;}
