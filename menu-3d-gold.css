@@ -1,0 +1,38 @@
+/*** MENU 3D GOLD ***/
+.fixe{position:fixed;top:20px;right:2%;z-index:10}
+
+.menu,.menu ul{list-style:none;padding:0;margin:0;}
+.menu{height:40px}
+
+.menu li{background:-webkit-linear-gradient(top, rgb(105, 86, 18), #d7a955 25%, #ffffff 38%, rgb(192, 151, 49) 85%, #dbbb80 98%, rgb(163, 126, 31));
+min-width:160px;box-shadow: inset 0px 1px 0px #f6e3c8, 0px 1px 3px rgb(0 0 0 / 30%);outline: none;border: 0px solid rgba(255, 255, 255, 0);}
+.menu>li{display:block;float:left;position:relative;}
+.menu>li:first-child{border-radius:20px 0 0 20px}
+.menu>li:last-child{border-radius:0 20px 20px 0}
+.menu a{border-left:3px solid rgba(0,0,0,0);color:rgb(69, 69, 69);display:block;color:#432e0d;font-family:'Rajdhani';font-size:24px;line-height:40px;text-align:center;text-decoration:none;text-transform:uppercase}
+.menu li:hover{background:-webkit-linear-gradient(top, rgb(109, 97, 59), #e5ce81 25%, #ffffff 38%, rgb(253, 237, 155) 85%, #857f48 98%, rgb(107, 105, 87));border-bottom:2px solid #222;border-top:2px solid #1b1b1b}
+.menu li:hover>a{border-radius:5px 0 0;border-left:3px}
+
+.submenu{left:0;max-height:0;position:absolute;top:100%;z-index:0;-webkit-perspective:400px;-moz-perspective:400px;-ms-perspective:400px;-o-perspective:400px;perspective:400px}
+.submenu li{opacity:0;-webkit-transform:rotateY(90deg);-moz-transform:rotateY(90deg);-ms-transform:rotateY(90deg);-o-transform:rotateY(90deg);transform:rotateY(90deg);-webkit-transition:opacity .4s,-webkit-transform .5s;-moz-transition:opacity .4s,-moz-transform .5s;-ms-transition:opacity .4s,-ms-transform .5s;-o-transition:opacity .4s,-o-transform .5s;transition:opacity .4s,transform .5s}
+
+.menu .submenu li:hover a{border-radius:0;color:#461713}
+.menu>li:hover .submenu,.menu>li:focus .submenu{max-height:2000px;z-index:10}
+.menu>li:hover .submenu li,.menu>li:focus .submenu li{opacity:1;-webkit-transform:none;-moz-transform:none;-ms-transform:none;-o-transform:none;transform:none}
+.menu li:hover .submenu li:nth-child(1){-webkit-transition-delay:0s;-moz-transition-delay:0s;-ms-transition-delay:0s;-o-transition-delay:0s;transition-delay:0s}
+.menu li:hover .submenu li:nth-child(2){-webkit-transition-delay:50ms;-moz-transition-delay:50ms;-ms-transition-delay:50ms;-o-transition-delay:50ms;transition-delay:50ms}
+.menu li:hover .submenu li:nth-child(3){-webkit-transition-delay:.1s;-moz-transition-delay:.1s;-ms-transition-delay:.1s;-o-transition-delay:.1s;transition-delay:.1s}
+.menu li:hover .submenu li:nth-child(4){-webkit-transition-delay:.15s;-moz-transition-delay:.15s;-ms-transition-delay:.15s;-o-transition-delay:.15s;transition-delay:.15s}
+.menu li:hover .submenu li:nth-child(5){-webkit-transition-delay:.2s;-moz-transition-delay:.2s;-ms-transition-delay:.2s;-o-transition-delay:.2s;transition-delay:.2s}
+.menu li:hover .submenu li:nth-child(6){-webkit-transition-delay:.25s;-moz-transition-delay:.25s;-ms-transition-delay:.25s;-o-transition-delay:.25s;transition-delay:.25s}
+.menu li:hover .submenu li:nth-child(7){-webkit-transition-delay:.3s;-moz-transition-delay:.3s;-ms-transition-delay:.3s;-o-transition-delay:.3s;transition-delay:.3s}
+.menu li:hover .submenu li:nth-child(8){-webkit-transition-delay:.35s;-moz-transition-delay:.35s;-ms-transition-delay:.35s;-o-transition-delay:.35s;transition-delay:.35s}
+
+.submenu li:nth-child(1){-webkit-transition-delay:.35s;-moz-transition-delay:.35s;-ms-transition-delay:.35s;-o-transition-delay:.35s;transition-delay:.35s}
+.submenu li:nth-child(2){-webkit-transition-delay:.3s;-moz-transition-delay:.3s;-ms-transition-delay:.3s;-o-transition-delay:.3s;transition-delay:.3s}
+.submenu li:nth-child(3){-webkit-transition-delay:.25s;-moz-transition-delay:.25s;-ms-transition-delay:.25s;-o-transition-delay:.25s;transition-delay:.25s}
+.submenu li:nth-child(4){-webkit-transition-delay:.2s;-moz-transition-delay:.2s;-ms-transition-delay:.2s;-o-transition-delay:.2s;transition-delay:.2s}
+.submenu li:nth-child(5){-webkit-transition-delay:.15s;-moz-transition-delay:.15s;-ms-transition-delay:.15s;-o-transition-delay:.15s;transition-delay:.15s}
+.submenu li:nth-child(6){-webkit-transition-delay:.1s;-moz-transition-delay:.1s;-ms-transition-delay:.1s;-o-transition-delay:.1s;transition-delay:.1s}
+.submenu li:nth-child(7){-webkit-transition-delay:50ms;-moz-transition-delay:50ms;-ms-transition-delay:50ms;-o-transition-delay:50ms;transition-delay:50ms}
+.submenu li:nth-child(8){-webkit-transition-delay:0s;-moz-transition-delay:0s;-ms-transition-delay:0s;-o-transition-delay:0s;transition-delay:0s}
