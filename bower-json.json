@@ -1,0 +1,40 @@
+{
+  "name": "MENU-OPEN-FLIP-3D-SILVER",
+  "version": "1.0.0",
+  "authors": [
+    "Madjeek Wizard <web-agency@madjeek.fr>"
+  ],
+  "description": "MENU OPEN FLIP 3D SILVER - Creator : MADJEEK WIZARD - 2022 - MIT License Project - CSS NAVIGATION",
+  "main": "https://github.com/madjeek-web/MENU-OPEN-FLIP-3D-SILVER",
+  "keywords": [
+    "css",
+    "menu",
+    "3d",
+    "silver",
+    "brass",
+    "cu",
+    "gold",
+    "flip",
+    "open",
+    "madjeek wizard",
+    "licence",
+    "project",
+    "nav",
+    "navigation",
+    "mit"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/madjeek-web/MENU-OPEN-FLIP-3D-SILVER",
+  "ignore": [
+    "/***....***/",
+    "/***....***/",
+    "/***....***/"
+  ],
+  "dependencies": {
+    "FRICONIX": "https://friconix.com/"
+  },
+  "devDependencies": {
+    "FRICONIX.JS": "https://friconix.com/cdn/friconix.js",
+    "FRICONIX.JS V. advanced": "https://friconix.com/cdn/friconix-0.2271.js"
+  }
+}
