@@ -1,5 +1,4 @@
-/*** MENU 3D SILVER - MADJEEK.FR 2022 - MADJEEK WIZARD - Minify CSS
-base style menu 3d : https://madjeek.fr/madjeek-css/navigation-3d.css ***/
+/*** MENU 3D SILVER - MIT - Creator : MADJEEK WIZARD - 2022 ***/
 .fixe{position:fixed;top:20px;right:2%;z-index:10}
 
 .menu,.menu ul{list-style:none;padding:0;margin:0;}
