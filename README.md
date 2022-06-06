@@ -1,7 +1,7 @@
 # MENU-OPEN-FLIP-3D-SILVER
-MENU OPEN FLIP 3D SILVER - Creator : MADJEEK WIZARD - 2022 - MIT License Project - CSS NAVIGATION
+MENU OPEN FLIP 3D SILVER - Creator : MADJEEK DIGITAL STUDIO - 2022 - www.madjeek.fr - MIT License Project - CSS NAVIGATION
 
-// MENU OPEN FLIP 3D SILVER - Creator : MADJEEK WIZARD - 2022 - MIT License Project
+// MENU OPEN FLIP 3D SILVER - Creator : MADJEEK DIGITAL STUDIO - 2022 - www.madjeek.fr - MIT License Project
 _____________
 
 DEMO ON CODE PEN  : https://codepen.io/madjeek-web/pen/XWZppVR
@@ -18,7 +18,7 @@ ____
 
 OTHER STYLE :
 
-// MENU OPEN FLIP 3D BRASS / Cu - Creator : MADJEEK WIZARD - 2022 - MIT License Project 
+// MENU OPEN FLIP 3D BRASS / Cu - Creator : MADJEEK DIGITAL STUDIO - 2022 - www.madjeek.fr - MIT License Project 
 // SEE : https://codepen.io/madjeek-web/pen/ZErLmzE 
 // see : https://github.com/madjeek-web/MENU-OPEN-FLIP-3D-Brass-Cu
 
@@ -26,7 +26,7 @@ ____
 
 OTHER STYLE :
 
-// MENU OPEN FLIP 3D GOLD - Creator : MADJEEK WIZARD - 2022 - MIT License Project 
+// MENU OPEN FLIP 3D GOLD - Creator : MADJEEK DIGITAL STUDIO - 2022 - www.madjeek.fr - MIT License Project 
 // SEE : https://codepen.io/madjeek-web/pen/abqpXqz 
 // see : https://github.com/madjeek-web/MENU-OPEN-FLIP-3D-GOLD
 
@@ -34,7 +34,7 @@ ____
 
 MIT License
 
-Copyright (c) 2022 Madjeek Wizard
+Copyright (c) 2022 MADJEEK DIGITAL STUDIO - www.madjeek.fr
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
