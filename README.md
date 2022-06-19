@@ -60,3 +60,7 @@ Terms
 Privacy
 Security
 
+_____
+
+## ☕☕ BUY ME A COFFEE ☕
+https://www.buymeacoffee.com/madjeek
