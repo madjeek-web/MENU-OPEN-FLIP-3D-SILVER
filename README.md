@@ -1,5 +1,5 @@
 # MENU-OPEN-FLIP-3D-SILVER
-MENU OPEN FLIP 3D SILVER - Creator : MADJEEK DIGITAL STUDIO - 2022 - www.madjeek.fr - MIT License Project - CSS NAVIGATION
+MENU OPEN FLIP 3D SILVER - Creator : MADJEEK - 2022 - MIT License Project - CSS NAVIGATION
 _____________
 
 DEMO ON CODE PEN  : https://codepen.io/madjeek-web/pen/XWZppVR
